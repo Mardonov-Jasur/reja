@@ -1,0 +1,20 @@
+{
+  "name": "reja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Mardonov-Jasur/reja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mardonov-Jasur/reja/issues"
+  },
+  "homepage": "https://github.com/Mardonov-Jasur/reja#readme"
+}
