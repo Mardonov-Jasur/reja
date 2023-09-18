@@ -2,13 +2,15 @@
   "name": "reja",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "train.js",
   "scripts": {
+    "start": "node index.js", 
+    "train": "node train.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/Mardonov-Jasur/reja.git"
+    "url": "git+https://github.com/Mardonov-Jasur/reja.git"
   },
   "keywords": [],
   "author": "",
