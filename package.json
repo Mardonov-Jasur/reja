@@ -4,8 +4,8 @@
   "description": "",
   "main": "train.js",
   "scripts": {
-    "start": "node index.js", 
-    "train": "node train.js", 
+    "start": "nodemon index.js", 
+    "train": "nodemon train.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
