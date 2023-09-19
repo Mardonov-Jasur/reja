@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/Mardonov-Jasur/reja/issues"
   },
-  "homepage": "https://github.com/Mardonov-Jasur/reja#readme"
+  "homepage": "https://github.com/Mardonov-Jasur/reja#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^9.2.11",
+    "moment": "^2.29.4",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  }
 }

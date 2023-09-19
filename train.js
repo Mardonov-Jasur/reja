@@ -1,16 +1,15 @@
-function Sonlar(soz) {
-    let position = 0;
-    let count = 0;
-    let number = "0123456789";
-    for( position; position < soz.length; position++) {
-      if (number.includes(soz.charAt(position))) {
-        count++
+function checkSimilarity(str1, str2) {
+
+  for (let i = 0; i < str1.length; i++) {
+      for (let j = 0; j < str2.length; j++) {
+          if (str1[i] === str2[j]) {
+              return true;
+          }
       }
-    }
-    
-    return count;
   }
   
-  const result = Sonlar('bir2uch4b33esh6s');
-  console.log(result);
-  
+  return false; 
+}
+
+const result = checkSimilarity("entriw", "winter");
+console.log(result); 
