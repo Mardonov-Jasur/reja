@@ -2,39 +2,38 @@
 
 //+++++++++++++++++++++++++++++  D TASK   +++++++++++++++++++++++++++++++++++++// 
 
-const moment = require ("moment")
+// const moment = require ("moment")
 
-class Shop {
-    constructor(non, lagmon, cola) {
-        this.non = non;
-        this.lagmon = lagmon;
-        this.cola = cola;
-    }
+// class Shop {
+//     constructor(non, lagmon, cola) {
+//         this.non = non;
+//         this.lagmon = lagmon;
+//         this.cola = cola;
+//     }
 
-    Qoldiq() {
-        console.log(`${moment().format("HH:mm:ss")} Sotuvda ${this.non}ta non, ${this.lagmon}ta lagmon, ${this.cola}ta cola mavjud`);
-    }
+//     Qoldiq() {
+//         console.log(`${moment().format("HH:mm:ss")} Sotuvda ${this.non}ta non, ${this.lagmon}ta lagmon, ${this.cola}ta cola mavjud`);
+//     }
 
-    Sotish(product, quantity) {
-        if (this[product] >= quantity) {
-            this[product] -= quantity;
-            console.log(`${moment().format("HH:mm:ss")} ${quantity}ta ${product} sotildi. Qoldiq ${this[product]}`);
-        } else {
-            console.log(`${moment().format("HH:mm:ss")} Bizda yetarli ${product} mavjud emas. Qoldiq ${this[product]}`);
-        }
-    }
+//     Sotish(product, quantity) {
+//         if (this[product] >= quantity) {
+//             this[product] -= quantity;
+//             console.log(`${moment().format("HH:mm:ss")} ${quantity}ta ${product} sotildi. Qoldiq ${this[product]}`);
+//         } else {
+//             console.log(`${moment().format("HH:mm:ss")} Bizda yetarli ${product} mavjud emas. Qoldiq ${this[product]}`);
+//         }
+//     }
 
-    Qabul(product, quantity) {
-        this[product] += quantity;
-        console.log(`${moment().format("YYY.MM.DD. HH:mm:ss")} ${quantity}ta ${product} qabul qilindi. Qoldiq ${this[product]}`);
-    }
-}
+//     Qabul(product, quantity) {
+//         this[product] += quantity;
+//         console.log(`${moment().format("HH:mm:ss")} ${quantity}ta ${product} qabul qilindi. Qoldiq ${this[product]}`);
+//     }
+// }
 
-const shop = new Shop(2, 4, 6);
-shop.Qoldiq();
-shop.Sotish('non', 1);
-shop.Qabul('lagmon', 3);
-
+// const shop = new Shop(2, 4, 6);
+// shop.Qoldiq();
+// shop.Sotish('non', 1);
+// shop.Qabul('lagmon', 3);
 
 
 
