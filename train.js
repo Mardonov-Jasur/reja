@@ -1,3 +1,21 @@
+//*********************    E TASK   ******************************* */
+
+function reverseName (str) {
+    const result = str.split("");
+    const reverse = result.reverse("");
+    const join = reverse.join(""); 
+    console.log (join);
+}
+
+reverseName('evender');
+
+
+
+
+
+
+//*********************SYNC VA ASYNC FUNCTIONLAR**************************** */
+
 
 // console.log("Jack Ma maslahatlari");
 // const list = [
