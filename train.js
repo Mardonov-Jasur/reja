@@ -1,13 +1,40 @@
-//*********************    E TASK   ******************************* */
+//--------------------------  F TASK  --------------------------//
 
-function reverseName (str) {
-    const result = str.split("");
-    const reverse = result.reverse("");
-    const join = reverse.join(""); 
-    console.log (join);
+function checkWord(word) {
+  const uniqueChars = new Set();
+
+  for (const char of word) {
+    if (uniqueChars.has(char)) {
+      return true;
+    }
+    uniqueChars.add(char);
+  }
+
+  return false;
 }
 
-reverseName('evender');
+console.log(checkWord("hello"));
+console.log(checkWord("helo"));
+
+
+
+
+
+
+
+
+
+
+//*********************    E TASK   ******************************* */
+
+// function reverseName (str) {
+//     const result = str.split("");
+//     const reverse = result.reverse("");
+//     const join = reverse.join(""); 
+//     console.log (join);
+// }
+
+// reverseName('evender');
 
 
 
